@@ -4,6 +4,6 @@ const taskDescription = document.querySelector('.taskdescription');
 const addList = document.querySelector('input[name=addtext]');
 const clear = document.getElementById('clear');
 
-export { 
+export {
   listBody, checkbox, taskDescription, addList, clear,
 };
