@@ -23,7 +23,8 @@ class toDoList {
     const task = {
       description,
       completed: false,
-      index: this.listArray.length + 1,
+      index: this.listArray.length
+       + 1,
       edit: false,
     };
     this.listArray = [...this.listArray, task];
