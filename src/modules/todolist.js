@@ -1,5 +1,5 @@
-class toDoList {
-  construtor() {
+class ToDoList {
+  constructor() {
     this.getTasks();
   }
 
@@ -19,18 +19,30 @@ class toDoList {
     this.updateTasks();
   }
 
+  // add a task
   addTask(description) {
     const task = {
       description,
       completed: false,
-      index: this.listArray.length
-       + 1,
+      index: this.listArray.length + 1,
       edit: false,
     };
     this.listArray = [...this.listArray, task];
     this.updateTasks();
   }
 
+  clearCompleted() {
+    this.listArray = this.listArray.filter((item) => item.completed !== true);
+    if (this.listArray.length > 0) {
+      this.listArray = this.listArray.map((list, i) => {
+        list.index = i + 1;
+        return list;
+      });
+    }
+    this.updateTasks();
+  }
+
+  // remove a task
   removeTask(index) {
     this.listArray = this.listArray.filter((item) => item.index !== index);
     this.listArray = this.listArray.map((list, i) => {
@@ -40,6 +52,7 @@ class toDoList {
     this.updateTasks();
   }
 
+  // Edit a task
   editTask(index, description) {
     this.listArray[index - 1].description = description;
     this.listArray[index - 1].edit = false;
@@ -56,4 +69,4 @@ class toDoList {
   }
 }
 
-export default toDoList;
+export default ToDoList;

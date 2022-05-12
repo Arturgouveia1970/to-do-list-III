@@ -1,5 +1,5 @@
 {
-  "name": "To-do-list-III",
+  "name": "my-webpack-biolerplate",
   "version": "1.0.0",
   "description": "In this project the goal build a simple HTML list of To Do tasks with html, javascript ES6 syntax, webpack bundler and scss.",
   "main": "index.js",
