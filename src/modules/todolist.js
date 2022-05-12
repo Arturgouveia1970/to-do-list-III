@@ -36,6 +36,7 @@ class ToDoList {
     if (this.listArray.length > 0) {
       this.listArray = this.listArray.map((list, i) => {
         list.index = i + 1;
+        window.location.reload();
         return list;
       });
     }
@@ -66,6 +67,11 @@ class ToDoList {
       completed: !status,
     };
     this.updateTasks();
+  }
+
+  clearTask() {
+    this.listArray = this.listArray.filter((item) => item.completed !== true);
+    return this.listArray;
   }
 }
 

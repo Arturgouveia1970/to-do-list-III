@@ -85,3 +85,12 @@ Element.listBody.addEventListener('change', (e) => {
     refresh();
   }
 });
+
+Element.clear.addEventListener('click', () => {
+  const task = newTask.listArray;
+  task.forEach((item) => {
+    if (item.completed === true) {
+      newTask.clearCompleted(item);
+    }
+  });
+});
