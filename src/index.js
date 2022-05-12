@@ -93,4 +93,5 @@ Element.clear.addEventListener('click', () => {
       newTask.clearCompleted(item);
     }
   });
+  window.location.reload();
 });
