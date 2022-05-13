@@ -94,4 +94,5 @@ Element.clear.addEventListener('click', () => {
     }
   });
   window.location.reload();
+  refresh();
 });
