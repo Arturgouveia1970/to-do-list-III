@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(92, 203, 203);
+  background-color: rgb(45, 53, 53);
 }
 
 #list-container {
@@ -24,6 +24,11 @@ body {
   align-items: center;
   border: 2px solid rgba(220, 220, 220, 1);
   padding: 0 1rem;
+}
+
+.list-head p {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 #icon {
@@ -75,7 +80,7 @@ button {
 }
 
 .edit {
-  background-color: rgba(255, 235, 205);
+  background-color: rgb(81, 79, 76);
 }
 
 .edit input {
