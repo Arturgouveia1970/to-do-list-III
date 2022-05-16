@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[View website](https://arturgouveia1970.github.io/To-do-list-III/)
+[View website](https://arturgouveia1970.github.io/to-do-list-III/)
 
 ## Install
 
