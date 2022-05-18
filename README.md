@@ -29,7 +29,12 @@ npm install
 - GitHub:GitHub: [@Arturgouveia1970](https://github.com/Arturgouveia1970)
 - Artur Gouveia @ArturGouveia10
 - www.linkedin.com/in/artur-gouveia-323868197
+## Authors 2
+👤 **rotshidzwa chester  mavhungu**
 
+GitHub: @rotshidzw
+Twitter: @footballlz
+LinkedIn: Rochidzwa Chester
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
