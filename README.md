@@ -32,7 +32,14 @@ npm install
 
 ## 🤝 Contributing
 
+👤 **rotshidzwa chester mavhungu**
+
+GitHub: @rotshidzw
+Twitter: @footballlz
+LinkedIn: Rochidzwa Chester
 Contributions, issues, and feature requests are welcome!
+
+**Ademola Adebayo**
 
 Feel free to check the [issues page](../../issues/).
 

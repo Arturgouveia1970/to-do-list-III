@@ -4,7 +4,8 @@
   "description": "In this project the goal build a simple HTML list of To Do tasks with html, javascript ES6 syntax, webpack bundler and scss.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --verbose --coverage",
+    "watch": "webpack --watch", 
     "dev": "webpack serve --open --mode=development",
     "build": "webpack --mode development",
     "start": "webpack serve --open ",
@@ -22,8 +23,11 @@
   },
   "homepage": "https://github.com/Arturgouveia1970/To-do-list-III#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.12",
     "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "@babel/preset-env": "^7.17.12",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^28.1.0",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
