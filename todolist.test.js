@@ -21,4 +21,11 @@ describe('Add and delete Function', () => {
       JSON.stringify(task.listArray),
     );
   });
+
+  test('delete Item', () => {
+    task.removeTask(1);
+    expect(global.localStorage.getItem('toDoList')).toEqual(
+      JSON.stringify(task.listArray),
+    );
+  });
 });
