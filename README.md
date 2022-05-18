@@ -30,14 +30,16 @@ npm install
 - Artur Gouveia @ArturGouveia10
 - www.linkedin.com/in/artur-gouveia-323868197
 
-
 ## 🤝 Contributing
-👤 **rotshidzwa chester  mavhungu**
+
+👤 **rotshidzwa chester mavhungu**
 
 GitHub: @rotshidzw
 Twitter: @footballlz
 LinkedIn: Rochidzwa Chester
 Contributions, issues, and feature requests are welcome!
+
+**Ademola Adebayo**
 
 Feel free to check the [issues page](../../issues/).
 
