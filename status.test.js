@@ -28,4 +28,10 @@ describe('Edit, status and delete All items', () => {
       JSON.stringify(task.listArray),
     );
   });
+  test('clear all completed', () => {    
+    task.clearCompleted();    
+    expect(global.localStorage.getItem('toDoList')).toEqual(
+      JSON.stringify(task.listArray),
+    );  
+  });
 });
